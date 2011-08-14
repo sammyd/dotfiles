@@ -1,0 +1,16 @@
+[user]
+	name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
+	email = <%= print("Your Email: "); STDOUT.flush; STDIN.gets.chomp %>
+[github]
+	user = user = <%= print("GitHub Username: "); STDOUT.flush; STDIN.gets.chomp %>
+	token = token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
+[core]
+	excludesfile = <%= ENV['HOME'] %>/.gitignore
+	autocrlf = input
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
