@@ -38,10 +38,11 @@ set incsearch		" do incremental searching
 set expandtab
 set tabstop=2
 set shiftwidth=4
-colorscheme desert
+set background=dark
+colorscheme solarized
+set gfn=Monaco\ 11
+set number
 
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
-" let &guioptions = substitute(&guioptions, "t", "", "g")
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
