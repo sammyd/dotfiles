@@ -1,3 +1,7 @@
+runtime bundle/pathogen/autoload/pathogen.vim
+
+call pathogen#infect()
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
@@ -84,3 +88,5 @@ else
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
+
+
