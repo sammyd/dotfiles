@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/sam/Documents/iPhoneDev/TimedText/TimedText/TimedText.xcodeproj'
 let g:netrw_dirhist_2='/Users/sam/.rvm/gems/ruby-1.9.2-p180@tuatun3.1/bundler/gems/spree-c7640c092cbc/core/lib/spree_core/theme_support'
 let g:netrw_dirhist_3='/Users/sam/.rbenv'
 let g:netrw_dirhist_4='/Users/sam/Sites/rails_projects/tt/tuatun/.bundle'
+let g:netrw_dirhist_5='/Users/sam/Documents/iPhoneDev/ProdShots/.git'

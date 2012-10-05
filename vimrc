@@ -74,6 +74,9 @@ if has("autocmd")
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
 
+  " For git commit messages don't remember the last edit position
+  autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
